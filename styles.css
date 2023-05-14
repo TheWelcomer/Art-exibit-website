@@ -1,12 +1,27 @@
-#tabs {
-    color:"black";
-    height:"100";
-    background-color:"light-blue";
-    padding:"10"
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.navButton {
-    background-color:lightblue;
-    color:"black";
-    
+#tabs {
+    background-color: #2212b6;
+    height:"0";
+    background-color:"light-blue";
+    text-align: center;
+}
+
+.linkButton:link, .linkButton:visited {
+    background-color: #2212b6;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.linkButton:hover, .linkButton:active {
+    background-color: rgb(70, 95, 239);
+    border-style:"black";
+    border-color:"gray";
+    border-width: 5px;
 }
