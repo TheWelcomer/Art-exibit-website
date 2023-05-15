@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+        apiKey: "AIzaSyCtyTjx4I3Sbq-zk7no09qa4kgs_1E0IqE",
+        authDomain: "final-art-project.firebaseapp.com",
+        projectId: "final-art-project",
+        storageBucket: "final-art-project.appspot.com",
+        messagingSenderId: "689580273257",
+        appId: "1:689580273257:web:5a0557d90415342df3fcf8",
+        measurementId: "G-1Z2NWXQBNW"
+        };
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
     <script src="myscript.js"></script>
     <link rel="stylesheet" href="styles.css"></html>
     <meta charset="UTF-8">
@@ -20,5 +41,15 @@
         </ul>
     </nav>
     <iframe src="https://scratch.mit.edu/projects/850452668/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    <div id="chat">     
+        <ul id="messages"></ul>
+        <form id="send-message">
+            <input id="chat-txt" type="text" />
+            <button id="chat-btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+    <script src="script.js"></script>   
 </body>
 </html>
