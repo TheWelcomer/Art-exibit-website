@@ -36,6 +36,7 @@
 
 .generalText {
     margin-top: 10px;
+    margin-right: 10px;
     max-width: 1200px;
     min-height: 360px;
     font-family: 'Work Sans', sans-serif;
@@ -72,4 +73,10 @@
 
 #fireGuy {
     float:left;
+    margin-right: 10px;
+}
+
+#game {
+    float:left;
+    margin-right: 10px
 }
