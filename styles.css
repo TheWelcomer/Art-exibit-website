@@ -62,3 +62,14 @@
     float:left;
     margin-right: 10px;
 }
+
+#dirtText {
+    margin-top: 10px;
+    max-width: 1200px;
+    min-height: 360px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#fireGuy {
+    float:left;
+}
