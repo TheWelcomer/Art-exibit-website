@@ -3,11 +3,11 @@
     padding: 0;
 }
 
-#tabs {
+.tabs {
     background-color: #251e68;
     height:"0";
     background-color:"light-blue";
-    text-align: center;
+    text-align: left;
     font-family: 'Work Sans', sans-serif;
     font-weight:500;
 }
@@ -16,7 +16,6 @@
     background-color: #251e68;
     color: white;
     padding: 14px 25px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
@@ -35,12 +34,11 @@
     margin-right: 10px;
 }
 
-#waveText {
+.generalText {
     margin-top: 10px;
-    min-height: 360px;
     max-width: 1200px;
+    min-height: 360px;
     font-family: 'Work Sans', sans-serif;
-
 }
 
 #gardensImg {
@@ -52,4 +50,15 @@
     margin-top: 10px;
     max-width: 1200px;
     font-family: 'Work Sans', sans-serif;
+}
+
+#logo {
+    float:left;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+#someDirt {
+    float:left;
+    margin-right: 10px;
 }
